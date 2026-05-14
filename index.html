@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кыргызстандын Кооз Жерлери</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+            background:#f4f4f4;
+        }
+
+        header{
+            background:linear-gradient(to right, #0099ff, #00cc66);
+            color:white;
+            text-align:center;
+            padding:40px;
+        }
+
+        nav{
+            background:#222;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-size:18px;
+        }
+
+        .container{
+            padding:30px;
+        }
+
+        .card{
+            background:white;
+            border-radius:15px;
+            padding:20px;
+            margin-bottom:20px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .card img{
+            width:100%;
+            border-radius:10px;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:30px;
+        }
+
+        button{
+            background:#00aa66;
+            color:white;
+            border:none;
+            padding:12px 20px;
+            border-radius:10px;
+            cursor:pointer;
+            font-size:16px;
+        }
+
+        button:hover{
+            background:#008844;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Кыргызстандын Кооз Жерлери</h1>
+        <p>Саякат жана кооз табият дүйнөсү</p>
+    </header>
+
+    <nav>
+        <a href="#">Башкы бет</a>
+        <a href="#">Сүрөттөр</a>
+        <a href="#">Видео</a>
+        <a href="#">Байланыш</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>Ысык-Көл</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Issyk_Kul_Lake%2C_Kyrgyzstan.jpg">
+            <p>
+                Ысык-Көл — дүйнөдөгү эң кооз көлдөрдүн бири.
+                Жайында миңдеген туристтер келет.
+            </p>
+
+            <button onclick="showMessage()">
+                Көбүрөөк маалымат
+            </button>
+        </div>
+
+        <div class="card">
+            <h2>Ала-Тоо</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Tian_Shan_mountains.jpg">
+            <p>
+                Кыргызстандын тоолору абдан кооз жана таза абасы менен белгилүү.
+            </p>
+        </div>
+
+    </div>
+
+    <footer>
+        © 2026 Кыргызстандын Кооз Жерлери
+    </footer>
+
+    <script>
+        function showMessage(){
+            alert("Кыргызстан — жаратылышы эң кооз өлкөлөрдүн бири!");
+        }
+    </script>
+
+</body>
+</html>
